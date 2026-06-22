@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rift Valley University - Dashboard</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { display: flex; flex-direction: column; height: 100vh; background-color: #87CEEB; }
+        
+        /* 1. የላይኛው ናቪጌሽን */
+        .top-nav { background-color: rgba(4, 63, 87, 0.61); color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+        .top-links a { color: #fff; margin-left: 15px; text-decoration: none; font-size: 14px; }
+        
+        /* 2. Wrapper */
+        .wrapper { display: flex; flex: 1; overflow: hidden; }
+        
+        /* Sidebar */
+        .sidebar { width: 220px; background-color: rgba(4, 63, 87, 0.61); color: white; padding: 20px; }
+        .sidebar h2 { font-size: 25px; margin-bottom: 20px; color: #f39c12; }
+        .sidebar a { display: block; color: #fff; padding: 10px 0; text-decoration: none; border-bottom: 1px solid #3e4f5f; }
+        
+        /* 3. Main Body */
+        .main-body { flex: 1; padding: 40px; display: flex; gap: 40px; align-items: flex-start; }
+        
+        /* ጽሑፍ: የነጭ ሳጥን (background) ተወግዷል */
+        .text-section { 
+            flex: 2; 
+            color: #1a252f; 
+            background: transparent; /* የጀርባው ቀለም የለም */
+        } 
+        .text-section h1 { margin-bottom: 20px; font-size: 28px; }
+        .text-section p { line-height: 1.8; font-size: 17px; }
+        
+        /* Image Section */
+        .image-section { flex: 1; text-align: center; }
+        .image-section img { width: 100%; max-width: 300px; border-radius: 10px; border: 3px solid #fff; }
+        
+        .footer { text-align: center; padding: 15px; font-size: 12px; font-weight: bold; color: #1a252f; }
+    </style>
+</head>
+<body>
+ <div class="top-nav"><br>
+    <div class="top-links">
+        <a href="index.php">Home</a> 
+        <a href="view_students.php">Students</a> 
+        <a href="reports.php">Reports</a> 
+        <a href="logout.php">Logout</a>
+    </div>
+</div>
+</div>
+</div>
+
+    <div class="wrapper">
+        <div class="sidebar">
+          <a href="index.html">Dashboard</a>
+    <a href="register.html">Register Student</a>
+    <a href="view_students.php">View Students</a>
+    <a href="departments.html">Departments</a>
+    <a href="settings.php">Settings</a>
+</div>
+
+        <div class="main-body">
+            <div class="text-section">
+                <h1>Welcome Rift Valley Student Registration System</h1>
+                <p>Welcome to Rift Valley University Student Registration System. Rift Valley University is dedicated to providing quality education and modern digital services to streamline academic management. This platform integrates student records, faculty tools, and course management into a single centralized hub.</p>
+            </div>
+            
+            <div class="image-section">
+                <img src="rabia2@.jpg" alt="University Logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 Rift Valley University Management System. All Rights Reserved.
+    </div>
+
+</body>
+</html>
